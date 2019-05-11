@@ -8,7 +8,12 @@ export default function Squad() {
   return (
     <>
       <Nav />
-      <h1 className="squad-title">Squad Armory</h1>
+      <header className="squad-header">
+        <h1 className="squad-title">Squad Armory</h1>
+        <h3 className="squad-blurb">
+          Find friends to play with in your favorite online multiplayer games!
+        </h3>
+      </header>
       <section className="squad-image-container">
         <div>
           <img

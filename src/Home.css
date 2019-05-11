@@ -30,28 +30,35 @@ body{
     font-size: 1.25em;
 }
 
-.home-header-container nav{
-
+.home-nav-bar{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    
 }
 
 .home-header-button{
-    border: none;
+    font-size: 18px;
+    margin: 0 10px;
+    margin-top: 40px; 
+
+    /* border: none;
     background: none;
     color: #545E75;
-    font-size: 15px;
-    margin: 0 10px;
-    margin-top: 83px;
+    */
 }
-
+.home-nav-bar a{
+    text-decoration: none;
+    color: white;
+}
 .home-header-button:hover{
-    color: black;
-
+    color: rgba(156, 41, 233, 0.712);
 }
 
 .project-container{
-    width: 33%;
+    width: 50%;
     margin: auto;
-    margin-top: 50px;
+    margin-top: 103px;
     /* text-align: center; */
     display: flex;
     justify-content: center;
@@ -60,7 +67,7 @@ body{
 }
 .project-holder{
     align-self: center;
-    width: 200px;
+    width: 300px;
     /* margin-top: 50px; */
     /* display: inline-block; */
     flex: 1;
@@ -85,5 +92,17 @@ body{
 footer{
     margin-top: 100px;
     background-color: #B3E6EF;
-    height: 200px;
+    height: 100px;
+    display: flex;
+    justify-content: center;
+}
+
+.logo{
+    width: 30px;
+    margin: 20px;
+    margin-top: 40px;
+}
+
+.blurb-container{
+    display: flex;
 }

@@ -6,23 +6,25 @@ export default function Nav() {
     return (
       <nav className="home-nav-bar">
         <Link to="/">
-          <button type="button" className="home-header-button">
+          <div className="home-header-button">
             Home
-          </button>
+          </div>
         </Link>
         <Link to='/about'>
-        <button type="button" className="home-header-button">
+        <div className="home-header-button">
           About
-        </button>
+        </div>
         </Link>
         <Link to='/resume'>
-        <button type="button" className="home-header-button">
+        <div className="home-header-button">
           Résumé
-        </button>
+        </div>
         </Link>
-        {/* <a href='https://github.com/andrewbituin' className="home-header-button">
-          Github
-        </a> */}
+        <Link to='/contact'>
+        <div className="home-header-button">
+          Contact
+        </div>
+        </Link>
       </nav>
     );
   }
