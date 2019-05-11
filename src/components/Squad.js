@@ -1,29 +1,24 @@
-import React from 'react';
+import React from "react";
+import Nav from "./Nav";
+import squadDesktop from "../squadDesktop.png";
+import squadList from "../squadList.png";
+import "./Squad.css";
 
 export default function Squad() {
-    function generateNavButtons() {
-        return (
-          <nav className="home-nav-bar">
-            <button type="click" className="home-header-button">
-              About
-            </button>
-            <button type="click" className="home-header-button">
-              Résumé
-            </button>
-            <button type="click" className="home-header-button">
-              Github
-            </button>
-          </nav>
-        );
-      }
-    return(
-        <section className="home-header-container">
-        <header className="home-header">
-          <h1>
-            Hello! <br /> I'm Andrew, a full stack web developer.
-          </h1>
-          {generateNavButtons()}
-        </header>
-      </section>
-    )
+  return (
+    <>
+      <Nav />
+      <h1>Squad Armory</h1>
+      <img
+        src={squadDesktop}
+        alt="A screenshot of Squad Armory"
+        className="project-screenshot"
+      />
+      <img
+        src={squadList}
+        alt="A screenshot of Squad Armory"
+        className="project-screenshot"
+      />
+    </>
+  );
 }

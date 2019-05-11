@@ -4,23 +4,9 @@ import "./Home.css";
 import prefcards from "./prefcards-logo.png";
 import learnjs from "./learnjs-logo.png";
 import squad from "./squadarmory-logo.png";
+import Nav from './components/Nav';
 
 export default function Home(props) {
-  function generateNavButtons() {
-    return (
-      <nav className="home-nav-bar">
-        <button type="click" className="home-header-button">
-          About
-        </button>
-        <button type="click" className="home-header-button">
-          Résumé
-        </button>
-        <button type="click" className="home-header-button">
-          Github
-        </button>
-      </nav>
-    );
-  }
 
   // https://squad-armory.now.sh/
   // https://github.com/thinkful-ei-armadillo/The-Armory-Client
@@ -41,14 +27,7 @@ export default function Home(props) {
   }
   return (
     <>
-      <section className="home-header-container">
-        <header className="home-header">
-          <h1>
-            Hello! <br /> I'm Andrew, a full stack web developer.
-          </h1>
-          {generateNavButtons()}
-        </header>
-      </section>
+      <Nav />
       <section className="project-container">{generateProjects()}</section>
       <section>
         <footer>
