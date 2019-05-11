@@ -10,15 +10,19 @@ export default function Nav() {
             Home
           </button>
         </Link>
+        <Link to='/about'>
         <button type="button" className="home-header-button">
           About
         </button>
+        </Link>
+        <Link to='/resume'>
         <button type="button" className="home-header-button">
           Résumé
         </button>
-        <button type="button" className="home-header-button">
+        </Link>
+        {/* <a href='https://github.com/andrewbituin' className="home-header-button">
           Github
-        </button>
+        </a> */}
       </nav>
     );
   }
@@ -27,7 +31,7 @@ export default function Nav() {
     <section className="home-header-container">
       <header className="home-header">
         <h1>
-          Hello! <br /> I'm Andrew, a full stack web developer.
+         I'm Andrew, a full stack web developer <br /> and avid learner of things.
         </h1>
         {generateNavButtons()}
       </header>

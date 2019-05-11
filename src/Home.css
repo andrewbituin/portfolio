@@ -1,10 +1,12 @@
 *{
-    font-family: 'Open Sans', sans-serif;
+    /* font-family: 'Open Sans', sans-serif; */
+    font-family: 'Asap', sans-serif;
     box-sizing: border-box;
 }
 
 body{
     margin: 0px;
+    /* background-color: #95B1C4; */
 }
 
 .home-header-container{
@@ -16,8 +18,9 @@ body{
     padding-top: 33px;
     height: 250px;
     width: 100%;
-    background-color: #1fc8db;
-    background-image: linear-gradient(141deg, #9fb8ad 0%, #1fc8db 51%, #2cb5e8 75%);
+    /* background-color: #1fc8db;
+    background-image: linear-gradient(141deg, #9fb8ad 0%, #1fc8db 51%, #2cb5e8 75%); */
+    background-color: #63ADF2;
     color: white;
     opacity: 0.95;
     box-shadow: 5px 10px 3px lightgrey;
@@ -34,9 +37,10 @@ body{
 .home-header-button{
     border: none;
     background: none;
-    color: white;
+    color: #545E75;
     font-size: 15px;
     margin: 0 10px;
+    margin-top: 83px;
 }
 
 .home-header-button:hover{
@@ -45,15 +49,23 @@ body{
 }
 
 .project-container{
-    width: 50%;
+    width: 33%;
     margin: auto;
-    text-align: center;
+    margin-top: 50px;
+    /* text-align: center; */
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+    flex-wrap: wrap;
 }
 .project-holder{
-    width: 500px;
-    margin-top: 50px;
-    display: inline-block;
+    align-self: center;
+    width: 200px;
+    /* margin-top: 50px; */
+    /* display: inline-block; */
+    flex: 1;
     box-shadow: 5px 10px 3px lightgrey;
+    margin: 10px;
     
     -webkit-filter: brightness(100%);
 	-moz-filter: brightness(100%);
@@ -71,5 +83,7 @@ body{
 }
 
 footer{
-    background-color: lightgray;
+    margin-top: 100px;
+    background-color: #B3E6EF;
+    height: 200px;
 }

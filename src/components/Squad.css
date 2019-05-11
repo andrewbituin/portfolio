@@ -1,3 +1,16 @@
-.project-screenshot{
-    width: 900px;
+.squad-title{
+    text-align: center;
+}
+.squad-image-container {
+  width: 100%;
+  margin: auto;
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  align-items: center;
+}
+.project-screenshot {
+  flex: 1;
+  align-self: center;
+  width: 900px;
 }
