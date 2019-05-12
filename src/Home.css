@@ -81,6 +81,17 @@ body{
 	filter: brightness(100%);
 }
 
+.project-holder-page{
+    align-self: center;
+    width: 300px;
+    /* margin-top: 50px; */
+    /* display: inline-block; */
+    flex: 1;
+    box-shadow: 5px 10px 3px lightgrey;
+    margin: 10px;
+    margin-top: 60px;
+}
+
 .project-holder:hover{
     -webkit-filter: brightness(70%);
 	-moz-filter: brightness(70%);
