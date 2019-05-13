@@ -1,0 +1,57 @@
+.learnjs-header{
+    text-align: center;
+  }
+  .learnjs-title{
+      margin-top: 100px;
+      margin-bottom: 6px;
+      color: #545E75;
+  }
+  .learnjs-blurb{
+    margin-top: 0;
+    color: #545E75;
+  }
+  .learnjs-links-container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  .learnjs-links-container a{
+    text-decoration: none;
+    margin: 10px;
+  }
+  .learnjs-link{
+    font-size: 18px;
+  }
+  .learnjs-link:hover{
+    color: black;
+  }
+  .learnjs-image-container {
+    width: 100%;
+    margin: auto;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    
+  }
+  .project-screenshot {
+    flex: 1;
+    align-self: center;
+    width: 900px;
+    box-shadow: 5px 10px 3px black;
+    margin-bottom: 50px;
+  }
+  
+  .learnjs-description{
+    width: 50%;
+    margin: auto;
+  }
+  
+  .learnjs-description ul{
+    list-style: none;
+    padding-left: 0;
+  }
+  .learnjs-description{
+    font-size: 19px;
+    /* font-family: 'Open Sans', sans-serif; */
+  }

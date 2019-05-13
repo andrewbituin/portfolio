@@ -51,28 +51,11 @@ export default function Home() {
     );
   }
 
-  function generateBlurb() {
-    return (
-      <div className="blurb-container">
-        <p>
-          I love to learn. I find the most meaning in learning new things, in creating new things. I feel so lucky to have fallen into the world of
-          programming because everyday I'm learning something new or improving
-          on a skill I already knew before.
-        </p>
-        <ul>
-          Tech
-          <li>React</li>
-        </ul>
-      </div>
-    );
-  }
-
   return (
     <>
       <Nav />
       <section className="project-container">
         {generateProjects()}
-        {generateBlurb()}
       </section>
       <Footer />
     </>

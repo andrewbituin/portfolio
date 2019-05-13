@@ -12,7 +12,7 @@ export default function Footer() {
           <a href="https://www.github.com/andrewbituin">
             <img src={github} className="logo" />
           </a>
-          <a href="www.linkedin.com/in/andrew-bituin">
+          <a href="https://www.linkedin.com/in/andrew-bituin">
             <img src={linkedin} className="logo" />
           </a>
           <a href="https://www.instagram.com/lil_bittyy_/">

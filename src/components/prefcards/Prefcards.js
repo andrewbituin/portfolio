@@ -61,9 +61,6 @@ export default function Prefcards() {
         <h4>TECH STACK</h4>
         <ul>
           <li>React</li>
-          <li>React Hooks</li>
-          <br />
-          <li>Socketio</li>
           <br />
           <li>Node.js</li>
           <li>Express</li>

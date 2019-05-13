@@ -15,14 +15,14 @@ export default function Nav() {
           About
         </div>
         </Link>
-        <Link to='/resume'>
-        <div className="home-header-button">
-          Résumé
-        </div>
-        </Link>
         <Link to='/contact'>
         <div className="home-header-button">
           Contact
+        </div>
+        </Link>
+        <Link to='/resume'>
+        <div className="home-header-button">
+          Résumé
         </div>
         </Link>
       </nav>
