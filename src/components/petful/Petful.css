@@ -50,8 +50,9 @@
   .petful-description ul{
     list-style: none;
     padding-left: 0;
+    font-family: 'Open Sans', sans-serif;
   }
-  .petful-description{
+  .petful-description p, li, h5{
     font-size: 19px;
-    /* font-family: 'Open Sans', sans-serif; */
+    font-family: 'Open Sans', sans-serif;
   }

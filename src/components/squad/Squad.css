@@ -9,11 +9,12 @@
 .squad-blurb{
   margin-top: 0;
   color: #545E75;
+  
 }
 .squad-links-container{
   display: flex;
   justify-content: center;
-  align-items: center;
+  align-items: flex-start;
 }
 .squad-links-container a{
   text-decoration: none;
@@ -24,6 +25,7 @@
 }
 .squad-link:hover{
   color: black;
+  text-decoration: underline;
 }
 .squad-image-container {
   width: 100%;
@@ -45,13 +47,15 @@
 .squad-description{
   width: 50%;
   margin: auto;
+  
 }
 
 .squad-description ul{
   list-style: none;
   padding-left: 0;
+  font-family: 'Open Sans', sans-serif;
 }
-.squad-description{
+.squad-description p, li, h4{
   font-size: 19px;
-  /* font-family: 'Open Sans', sans-serif; */
+  font-family: 'Open Sans', sans-serif;
 }

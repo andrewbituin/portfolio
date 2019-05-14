@@ -16,20 +16,20 @@ export default function Squad() {
               alt="project-pic"
               className="project-holder-page"
             />
+            <div className="squad-links-container">
+          <a href="https://squad-armory.now.sh/">
+            <div className="squad-link">LIVE APP</div>
+          </a>
+          <a href="https://github.com/thinkful-ei-armadillo/The-Armory-Client">
+            <div className="squad-link">CLIENT REPO</div>
+          </a>
+          <a href="https://github.com/thinkful-ei-armadillo/The-Armory-Server">
+            <div className="squad-link">SERVER REPO</div>
+          </a>
+        </div>
         {/* <h3 className="squad-blurb">
           Find friends to play with in your favorite online multiplayer games!
         </h3> */}
-        <div className="squad-links-container">
-          <a href="https://squad-armory.now.sh/">
-            <div className="squad-link">Live App</div>
-          </a>
-          <a href="https://github.com/thinkful-ei-armadillo/The-Armory-Client">
-            <div className="squad-link">Client Repo</div>
-          </a>
-          <a href="https://github.com/thinkful-ei-armadillo/The-Armory-Server">
-            <div className="squad-link">Server Repo</div>
-          </a>
-        </div>
       </header>
       <section className="squad-image-container">
         <div>

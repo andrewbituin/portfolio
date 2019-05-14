@@ -20,11 +20,11 @@ export default function Nav() {
           Contact
         </div>
         </Link>
-        <Link to='/resume'>
+        {/* <Link to='/resume'>
         <div className="home-header-button">
           Résumé
         </div>
-        </Link>
+        </Link> */}
       </nav>
     );
   }

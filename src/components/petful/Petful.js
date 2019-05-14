@@ -17,13 +17,13 @@ export default function Petful() {
         </h3> */}
         <div className="petful-links-container">
           <a href="https://andrew-alex-petful.now.sh/">
-            <div className="petful-link">Live App</div>
+            <div className="petful-link">LIVE APP</div>
           </a>
           <a href="https://github.com/andrewbituin/petful-client">
-            <div className="petful-link">Client Repo</div>
+            <div className="petful-link">CLIENT REPO</div>
           </a>
           <a href="https://github.com/andrewbituin/petful-server">
-            <div className="petful-link">Server Repo</div>
+            <div className="petful-link">SERVER REPO</div>
           </a>
         </div>
       </header>

@@ -4,14 +4,17 @@
 
 .profile {
   width: 300px;
-  margin-top: 150px;
-  margin-bottom: 50px;
+  margin-top: 75px;
+  margin-bottom: 25px;
   box-shadow: 5px 10px 3px gray;
   border: 1px solid lightgray;
 }
 
 .about-section{
-    text-align: center;
+    text-align: left;
     width: 50%;
     margin: auto;
+}
+.about-section p{
+  font-family: 'Open Sans', sans-serif;
 }

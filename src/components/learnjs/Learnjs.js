@@ -18,13 +18,13 @@ export default function Learnjs() {
         </h3> */}
         <div className="learnjs-links-container">
           <a href="https://andrew-daniel-spaced-repetition.now.sh/">
-            <div className="learnjs-link">Live App</div>
+            <div className="learnjs-link">LIVE APP</div>
           </a>
           <a href="https://github.com/andrewbituin/learnjs-client">
-            <div className="learnjs-link">Client Repo</div>
+            <div className="learnjs-link">CLIENT REPO</div>
           </a>
           <a href="https://github.com/andrewbituin/learnjs-server">
-            <div className="learnjs-link">Server Repo</div>
+            <div className="learnjs-link">SERVER REPO</div>
           </a>
         </div>
       </header>

@@ -24,6 +24,7 @@
   }
   .prefcards-link:hover{
     color: black;
+    text-decoration: underline;
   }
   .prefcards-image-container {
     width: 100%;
@@ -40,6 +41,7 @@
     width: 900px;
     box-shadow: 5px 10px 3px black;
     margin-bottom: 50px;
+    border: 1px solid lightgray;
   }
   
   .prefcards-description{
@@ -50,7 +52,9 @@
   .prefcards-description ul{
     list-style: none;
     padding-left: 0;
+    font-family: 'Open Sans', sans-serif;
   }
-  .prefcards-description{
+  .prefcards-description p, li, h4{
       font-size: 19px;
+      font-family: 'Open Sans', sans-serif;
   }

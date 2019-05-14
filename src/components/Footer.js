@@ -3,6 +3,7 @@ import React from "react";
 import github from "../github-logo.png";
 import linkedin from "../linkedin-logo.png";
 import instagram from "../instagram-logo.png";
+import email from '../mail.png';
 
 export default function Footer() {
   function generateFooter() {
@@ -18,6 +19,9 @@ export default function Footer() {
           <a href="https://www.instagram.com/lil_bittyy_/">
             <img src={instagram} className="logo" />
           </a>
+          <a href="mailto:fandrewbituin@gmail.com">
+              <img src={email} className="logo" />
+            </a>
         </div>
         <div className="right-footer" />
       </footer>

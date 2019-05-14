@@ -17,18 +17,18 @@ export default function Prefcards() {
               alt="project-pic"
               className="project-holder-page"
             />
-        {/* <h3 className="prefcards-blurb">An app for surgical teams</h3> */}
-        <div className="prefcards-links-container">
+            <div className="prefcards-links-container">
           <a href="https://prefcards.fandrewbituin.now.sh/">
-            <div className="prefcards-link">Live App</div>
+            <div className="prefcards-link">LIVE APP</div>
           </a>
           <a href="https://github.com/andrewbituin/prefcards-client">
-            <div className="prefcards-link">Client Repo</div>
+            <div className="prefcards-link">CLIENT REPO</div>
           </a>
           <a href="https://github.com/andrewbituin/prefcards-api">
-            <div className="prefcards-link">Server Repo</div>
+            <div className="prefcards-link">SERVER REPO</div>
           </a>
         </div>
+        {/* <h3 className="prefcards-blurb">An app for surgical teams</h3> */}
       </header>
       <section className="prefcards-image-container">
         <div>
