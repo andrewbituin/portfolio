@@ -34,7 +34,7 @@ export default function Learnjs() {
         </div>
       </section>
       <div className="learnjs-links-container">
-          <a href="https://learnjs-app.now.sh/login">
+          <a href="https://learnjs-app.now.sh/">
             <div className="learnjs-link">LIVE APP</div>
           </a>
           <a href="https://github.com/andrewbituin/learnjs-client">
