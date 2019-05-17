@@ -55,6 +55,9 @@ export default function Contact() {
           </li>
         </ul>
       </section>
+      <footer className="contact-footer">
+
+      </footer>
     </>
   );
 }

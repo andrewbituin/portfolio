@@ -3,8 +3,8 @@ import Nav from "../Nav";
 import Footer from "../Footer";
 import "./Prefcards.css";
 
-import prefcardsExample from "./prefcardsExample.png";
-import prefcardsList from "./prefcardsList.png";
+import prefcardsExample from "./prefcardsExample2.png";
+import prefcardsList from "./prefcardsList2.png";
 import prefcards from '../.././prefcards3.png';
 
 export default function Prefcards() {
@@ -17,17 +17,6 @@ export default function Prefcards() {
               alt="project-pic"
               className="project-holder-page"
             />
-            <div className="prefcards-links-container">
-          <a href="https://prefcards.fandrewbituin.now.sh/">
-            <div className="prefcards-link">LIVE APP</div>
-          </a>
-          <a href="https://github.com/andrewbituin/prefcards-client">
-            <div className="prefcards-link">CLIENT REPO</div>
-          </a>
-          <a href="https://github.com/andrewbituin/prefcards-api">
-            <div className="prefcards-link">SERVER REPO</div>
-          </a>
-        </div>
         {/* <h3 className="prefcards-blurb">An app for surgical teams</h3> */}
       </header>
       <section className="prefcards-image-container">
@@ -46,6 +35,17 @@ export default function Prefcards() {
           />
         </div>
       </section>
+      <div className="prefcards-links-container">
+          <a href="https://prefcards.fandrewbituin.now.sh/">
+            <div className="prefcards-link">LIVE APP</div>
+          </a>
+          <a href="https://github.com/andrewbituin/prefcards-client">
+            <div className="prefcards-link">CLIENT REPO</div>
+          </a>
+          <a href="https://github.com/andrewbituin/prefcards-api">
+            <div className="prefcards-link">SERVER REPO</div>
+          </a>
+        </div>
       <section className="prefcards-description">
         <p>
           Prefcards helps surgical teams maintain consistent and accurate
@@ -61,7 +61,6 @@ export default function Prefcards() {
         <h4>TECH STACK</h4>
         <ul>
           <li>React</li>
-          <br />
           <li>Node.js</li>
           <li>Express</li>
           <li>PostgreSQL</li>

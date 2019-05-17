@@ -15,17 +15,6 @@ export default function Petful() {
         {/* <h3 className="petful-blurb">
           Find friends to play with in your favorite online multiplayer games!
         </h3> */}
-        <div className="petful-links-container">
-          <a href="https://andrew-alex-petful.now.sh/">
-            <div className="petful-link">LIVE APP</div>
-          </a>
-          <a href="https://github.com/andrewbituin/petful-client">
-            <div className="petful-link">CLIENT REPO</div>
-          </a>
-          <a href="https://github.com/andrewbituin/petful-server">
-            <div className="petful-link">SERVER REPO</div>
-          </a>
-        </div>
       </header>
       <section className="petful-image-container">
         <div>
@@ -36,6 +25,17 @@ export default function Petful() {
           />
         </div>
       </section>
+      <div className="petful-links-container">
+          <a href="https://andrew-alex-petful.now.sh/">
+            <div className="petful-link">LIVE APP</div>
+          </a>
+          <a href="https://github.com/andrewbituin/petful-client">
+            <div className="petful-link">CLIENT REPO</div>
+          </a>
+          <a href="https://github.com/andrewbituin/petful-server">
+            <div className="petful-link">SERVER REPO</div>
+          </a>
+        </div>
       <section className="petful-description">
         <p>
           Pet-O-Rama 5001 is an app that helps connect pets who are up for
@@ -52,7 +52,6 @@ export default function Petful() {
         <h4>TECH STACK</h4>
         <ul>
           <li>React</li>
-          <br />
           <li>Node.js</li>
           <li>Express</li>
           <li>PostgreSQL</li>

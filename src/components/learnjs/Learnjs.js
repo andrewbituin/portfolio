@@ -16,17 +16,6 @@ export default function Learnjs() {
         {/* <h3 className="learnjs-blurb">
           Find friends to play with in your favorite online multiplayer games!
         </h3> */}
-        <div className="learnjs-links-container">
-          <a href="https://andrew-daniel-spaced-repetition.now.sh/">
-            <div className="learnjs-link">LIVE APP</div>
-          </a>
-          <a href="https://github.com/andrewbituin/learnjs-client">
-            <div className="learnjs-link">CLIENT REPO</div>
-          </a>
-          <a href="https://github.com/andrewbituin/learnjs-server">
-            <div className="learnjs-link">SERVER REPO</div>
-          </a>
-        </div>
       </header>
       <section className="learnjs-image-container">
         <div>
@@ -44,6 +33,17 @@ export default function Learnjs() {
           />
         </div>
       </section>
+      <div className="learnjs-links-container">
+          <a href="https://andrew-daniel-spaced-repetition.now.sh/">
+            <div className="learnjs-link">LIVE APP</div>
+          </a>
+          <a href="https://github.com/andrewbituin/learnjs-client">
+            <div className="learnjs-link">CLIENT REPO</div>
+          </a>
+          <a href="https://github.com/andrewbituin/learnjs-server">
+            <div className="learnjs-link">SERVER REPO</div>
+          </a>
+        </div>
       <section className="learnjs-description">
         <p>
           Learn.js is a demonstration of our ability to construct an application
@@ -52,7 +52,6 @@ export default function Learnjs() {
         <h4>TECH STACK</h4>
         <ul>
           <li>React</li>
-          <br />
           <li>Node.js</li>
           <li>Express</li>
           <li>PostgreSQL</li>

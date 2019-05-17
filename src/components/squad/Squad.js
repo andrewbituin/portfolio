@@ -16,17 +16,6 @@ export default function Squad() {
               alt="project-pic"
               className="project-holder-page"
             />
-            <div className="squad-links-container">
-          <a href="https://squad-armory.now.sh/">
-            <div className="squad-link">LIVE APP</div>
-          </a>
-          <a href="https://github.com/thinkful-ei-armadillo/The-Armory-Client">
-            <div className="squad-link">CLIENT REPO</div>
-          </a>
-          <a href="https://github.com/thinkful-ei-armadillo/The-Armory-Server">
-            <div className="squad-link">SERVER REPO</div>
-          </a>
-        </div>
         {/* <h3 className="squad-blurb">
           Find friends to play with in your favorite online multiplayer games!
         </h3> */}
@@ -47,6 +36,17 @@ export default function Squad() {
           />
         </div>
       </section>
+      <div className="squad-links-container">
+          <a href="https://squad-armory.now.sh/">
+            <div className="squad-link">LIVE APP</div>
+          </a>
+          <a href="https://github.com/thinkful-ei-armadillo/The-Armory-Client">
+            <div className="squad-link">CLIENT REPO</div>
+          </a>
+          <a href="https://github.com/thinkful-ei-armadillo/The-Armory-Server">
+            <div className="squad-link">SERVER REPO</div>
+          </a>
+        </div>
       <section className="squad-description">
         <p>
           Finding friends to play online video games with is hard. Sometimes
@@ -67,9 +67,7 @@ export default function Squad() {
         <ul>
           <li>React</li>
           <li>React Hooks</li>
-          <br />
           <li>Socketio</li>
-          <br />
           <li>Node.js</li>
           <li>Express</li>
           <li>PostgreSQL</li>

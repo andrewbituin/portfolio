@@ -39,3 +39,7 @@ a{
 .logo-container{
   margin-top: 3px;
 }
+.contact-footer{
+  height: 100px;
+  background-color: lightgray;
+}
