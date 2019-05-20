@@ -9,7 +9,7 @@ import squad from '../.././squadarmory-logo.png'
 export default function Squad() {
   return (
     <>
-      <Nav />
+      {/* <Nav /> */}
       <header className="squad-header">
       <img
               src={squad}

@@ -1,42 +1,24 @@
 import React from "react";
 import { Link } from "react-router-dom";
+import NavButtons from "./NavButtons";
+import Initials from "./initials/Initials";
 
 export default function Nav() {
-  function generateNavButtons() {
-    return (
-      <nav className="home-nav-bar">
-        <Link to="/">
-          <div className="home-header-button">
-            Home
-          </div>
-        </Link>
-        <Link to='/about'>
-        <div className="home-header-button">
-          About
-        </div>
-        </Link>
-        <Link to='/contact'>
-        <div className="home-header-button">
-          Contact
-        </div>
-        </Link>
-        {/* <Link to='/resume'>
-        <div className="home-header-button">
-          Résumé
-        </div>
-        </Link> */}
-      </nav>
-    );
-  }
+
 
   return (
+    <>
+    <Initials />
+    <div className="nav-bar">
+    </div>
     <section className="home-header-container">
       <header className="home-header">
         <h1>
-         I'm Andrew, a full stack web developer <br /> and avid learner of things.
+         Hi there! <br></br> I'm <span className="name-andrew">Andrew</span>.
         </h1>
-        {generateNavButtons()}
+        <p className="header-blurb">I'm a full stack web developer who's passionate about learning and programming.</p>
       </header>
     </section>
+    </>
   );
 }
