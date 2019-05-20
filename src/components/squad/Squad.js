@@ -4,18 +4,21 @@ import Footer from "../Footer";
 import squadDesktop from "./squadDesktop.png";
 import squadList from "./squadList.png";
 import "./Squad.css";
-import squad from '../.././squadarmory-logo.png'
+import squad from "../.././squadarmory-logo.png";
+import Initials from '../initials/Initials';
 
 export default function Squad() {
   return (
     <>
       {/* <Nav /> */}
+      <div className="initials-container">
+        <h1 className="A-initials">
+          A<span className="B-initials">B</span>.
+        </h1>
+        <Initials />
+      </div>
       <header className="squad-header">
-      <img
-              src={squad}
-              alt="project-pic"
-              className="project-holder-page"
-            />
+        <h1>SQUAD ARMORY</h1>
         {/* <h3 className="squad-blurb">
           Find friends to play with in your favorite online multiplayer games!
         </h3> */}
@@ -37,16 +40,16 @@ export default function Squad() {
         </div>
       </section>
       <div className="squad-links-container">
-          <a href="https://squad-armory.now.sh/">
-            <div className="squad-link">LIVE APP</div>
-          </a>
-          <a href="https://github.com/thinkful-ei-armadillo/The-Armory-Client">
-            <div className="squad-link">CLIENT REPO</div>
-          </a>
-          <a href="https://github.com/thinkful-ei-armadillo/The-Armory-Server">
-            <div className="squad-link">SERVER REPO</div>
-          </a>
-        </div>
+        <a href="https://squad-armory.now.sh/">
+          <div className="squad-link">LIVE APP</div>
+        </a>
+        <a href="https://github.com/thinkful-ei-armadillo/The-Armory-Client">
+          <div className="squad-link">CLIENT REPO</div>
+        </a>
+        <a href="https://github.com/thinkful-ei-armadillo/The-Armory-Server">
+          <div className="squad-link">SERVER REPO</div>
+        </a>
+      </div>
       <section className="squad-description">
         <p>
           Finding friends to play online video games with is hard. Sometimes

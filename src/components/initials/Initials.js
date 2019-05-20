@@ -6,7 +6,7 @@ export default function Initials() {
     return (
         <>
         <div className="initials-container">
-
+           
         <NavButtons />
         </div>
         </>

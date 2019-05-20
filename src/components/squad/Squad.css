@@ -1,5 +1,8 @@
 .squad-header{
   text-align: center;
+  margin-top: 100px;
+  font-size: 25px;
+  color: lightslategray;
 }
 .squad-title{
     margin-top: 100px;

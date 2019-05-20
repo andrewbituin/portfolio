@@ -1,60 +1,64 @@
-.prefcards-header{
-    text-align: center;
-  }
-  .prefcards-title{
-      margin-top: 100px;
-      margin-bottom: 6px;
-      color: #545E75;
-  }
-  .prefcards-blurb{
-    margin-top: 0;
-    color: #545E75;
-  }
-  .prefcards-links-container{
-    display: flex;
-    justify-content: center;
-    align-items: center;
-  }
-  .prefcards-links-container a{
-    text-decoration: none;
-    margin: 10px;
-  }
-  .prefcards-link{
-    font-size: 18px;
-  }
-  .prefcards-link:hover{
-    color: black;
-    text-decoration: underline;
-  }
-  .prefcards-image-container {
-    width: 100%;
-    margin: auto;
-    display: flex;
-    justify-content: center;
-    flex-direction: column;
-    align-items: center;
-    
-  }
-  .project-screenshot {
-    flex: 1;
-    align-self: center;
-    width: 900px;
-    box-shadow: 5px 10px 3px black;
-    margin-bottom: 50px;
-    border: 1px solid lightgray;
-  }
-  
-  .prefcards-description{
-    width: 50%;
-    margin: auto;
-  }
-  
-  .prefcards-description ul{
-    list-style: none;
-    padding-left: 0;
-    font-family: 'Open Sans', sans-serif;
-  }
-  .prefcards-description p, li, h4{
-      font-size: 19px;
-      font-family: 'Open Sans', sans-serif;
-  }
+.prefcards-header {
+  text-align: center;
+  margin-top: 100px;
+  font-size: 25px;
+  color: lightslategray;
+}
+.prefcards-title {
+  margin-top: 100px;
+  margin-bottom: 6px;
+  color: #545e75;
+}
+.prefcards-blurb {
+  margin-top: 0;
+  color: #545e75;
+}
+.prefcards-links-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.prefcards-links-container a {
+  text-decoration: none;
+  margin: 10px;
+}
+.prefcards-link {
+  font-size: 18px;
+}
+.prefcards-link:hover {
+  color: black;
+  text-decoration: underline;
+}
+.prefcards-image-container {
+  width: 100%;
+  margin: auto;
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  align-items: center;
+}
+.project-screenshot {
+  flex: 1;
+  align-self: center;
+  width: 900px;
+  box-shadow: 5px 10px 3px black;
+  margin-bottom: 50px;
+  border: 1px solid lightgray;
+}
+
+.prefcards-description {
+  width: 50%;
+  margin: auto;
+}
+
+.prefcards-description ul {
+  list-style: none;
+  padding-left: 0;
+  font-family: "Open Sans", sans-serif;
+}
+.prefcards-description p,
+li,
+h4 {
+  font-size: 19px;
+  font-family: "Open Sans", sans-serif;
+}
