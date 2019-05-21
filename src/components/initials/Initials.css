@@ -15,3 +15,15 @@
 .B-initials{
     color: rgb(107, 176, 242);
 }
+
+@media only screen and (max-width:900px){
+    .initials-container{
+        font-size: 40px;
+        width: 75%;
+        display: block;
+        text-align: center;
+    }
+    .initials-container h1{
+        margin: 0;
+    }
+}

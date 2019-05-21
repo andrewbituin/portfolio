@@ -1,10 +1,8 @@
 import React from "react";
-import Nav from "../Nav";
 import Footer from "../Footer";
 import petfulDashboard from "./petful-dashboard.png";
 
 import "./Petful.css";
-import petful from "../../petful-logo.png";
 import Initials from '../initials/Initials';
 
 export default function Petful() {

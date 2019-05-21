@@ -62,3 +62,33 @@ h4 {
   font-size: 19px;
   font-family: "Open Sans", sans-serif;
 }
+@media only screen and (max-width: 900px) {
+  .prefcards-image-container {
+    width: 74%;
+    margin: auto;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+  }
+  .project-screenshot {
+    flex: 1;
+    align-self: center;
+    max-width: 100%;
+    box-shadow: 5px 10px 3px black;
+    margin-bottom: 50px;
+  }
+  .prefcards-header h1 {
+    font-size: 40px;
+  }
+  .prefcards-description p,
+  ul li,
+  h4 {
+    font-size: 15px;
+    font-family: "Open Sans", sans-serif;
+  }
+  .prefcards-description {
+    width: 65%;
+    margin: auto;
+  }
+}

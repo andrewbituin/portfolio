@@ -6,17 +6,14 @@ import Footer from './components/Footer';
 import "./Home.css";
 
 import squad from "./squadarmory-logo.png";
-import squad2 from "./squad2.png";
 
-import learnjs from "./learnjs-logo.png";
 import learnjs2 from "./learnjs2.png";
 
 import petful from "./petful-logo.png";
 
-import prefcards from "./prefcards-logo.png";
-import prefcards2 from "./prefcards-logo2.png";
+
 import prefcards3 from "./prefcards3.png";
-import NavButtons from "./components/NavButtons";
+
 
 export default function Home() {
   // https://squad-armory.now.sh/
@@ -24,7 +21,7 @@ export default function Home() {
   function generateProjects() {
     return (
       <>
-        <div classname="squadArmory">
+        <div className="squadArmory">
           <Link to="/squad-armory">
             <img src={squad} alt="project-pic" className="project-holder" />
           </Link>
