@@ -42,4 +42,16 @@ a{
 .contact-footer{
   height: 100px;
   background-color: lightgray;
+  margin-top: 175px;
+}
+
+@media only screen and (max-width: 900px){
+  .contact-container {
+    display: block;
+    text-align: center;
+
+  }
+  .contact-container ul{
+    text-align: left;
+  }
 }

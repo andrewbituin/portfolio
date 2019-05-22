@@ -18,3 +18,10 @@
 .about-section p{
   font-family: 'Open Sans', sans-serif;
 }
+@media only screen and (max-width: 900px){
+  .about-section{
+    text-align: left;
+    width: 84%;
+    margin: auto;
+  }
+}

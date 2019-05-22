@@ -1,0 +1,29 @@
+.initials-container{
+    font-size: 40px;
+    width: 75%;
+    margin: 20px auto;
+    display: flex;
+    justify-content: flex-end;
+}
+
+.initials-container h1{
+    margin: 0;
+    flex: 1;
+    margin-left: 50px;
+}
+
+.B-initials{
+    color: rgb(107, 176, 242);
+}
+
+@media only screen and (max-width:900px){
+    .initials-container{
+        font-size: 40px;
+        width: 75%;
+        display: block;
+        text-align: center;
+    }
+    .initials-container h1{
+        margin: 0;
+    }
+}

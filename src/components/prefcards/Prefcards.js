@@ -5,18 +5,19 @@ import "./Prefcards.css";
 
 import prefcardsExample from "./prefcardsExample2.png";
 import prefcardsList from "./prefcardsList2.png";
-import prefcards from '../.././prefcards3.png';
+import Initials from '../initials/Initials';
 
 export default function Prefcards() {
   return (
     <>
-      <Nav />
+      <div className="initials-container">
+        <h1 className="A-initials">
+          A<span className="B-initials">B</span>.
+        </h1>
+        <Initials />
+      </div>
       <header className="prefcards-header">
-      <img
-              src={prefcards}
-              alt="project-pic"
-              className="project-holder-page"
-            />
+        <h1>PREFCARDS</h1>
         {/* <h3 className="prefcards-blurb">An app for surgical teams</h3> */}
       </header>
       <section className="prefcards-image-container">
@@ -36,16 +37,16 @@ export default function Prefcards() {
         </div>
       </section>
       <div className="prefcards-links-container">
-          <a href="https://prefcards.fandrewbituin.now.sh/">
-            <div className="prefcards-link">LIVE APP</div>
-          </a>
-          <a href="https://github.com/andrewbituin/prefcards-client">
-            <div className="prefcards-link">CLIENT REPO</div>
-          </a>
-          <a href="https://github.com/andrewbituin/prefcards-api">
-            <div className="prefcards-link">SERVER REPO</div>
-          </a>
-        </div>
+        <a href="https://prefcards.fandrewbituin.now.sh/">
+          <div className="prefcards-link">LIVE APP</div>
+        </a>
+        <a href="https://github.com/andrewbituin/prefcards-client">
+          <div className="prefcards-link">CLIENT REPO</div>
+        </a>
+        <a href="https://github.com/andrewbituin/prefcards-api">
+          <div className="prefcards-link">SERVER REPO</div>
+        </a>
+      </div>
       <section className="prefcards-description">
         <p>
           Prefcards helps surgical teams maintain consistent and accurate

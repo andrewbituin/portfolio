@@ -1,58 +1,93 @@
-.learnjs-header{
-    text-align: center;
-  }
-  .learnjs-title{
-      margin-top: 100px;
-      margin-bottom: 6px;
-      color: #545E75;
-  }
-  .learnjs-blurb{
-    margin-top: 0;
-    color: #545E75;
-  }
-  .learnjs-links-container{
-    display: flex;
-    justify-content: center;
-    align-items: center;
-  }
-  .learnjs-links-container a{
-    text-decoration: none;
-    margin: 10px;
-  }
-  .learnjs-link{
-    font-size: 18px;
-  }
-  .learnjs-link:hover{
-    color: black;
-  }
+.learnjs-header {
+  text-align: center;
+  margin-top: 100px;
+  font-size: 25px;
+  color: lightslategray;
+}
+.learnjs-title {
+  margin-top: 100px;
+  margin-bottom: 6px;
+  color: #545e75;
+}
+.learnjs-blurb {
+  margin-top: 0;
+  color: #545e75;
+}
+.learnjs-links-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.learnjs-links-container a {
+  text-decoration: none;
+  margin: 10px;
+}
+.learnjs-link {
+  font-size: 18px;
+}
+.learnjs-link:hover {
+  color: black;
+}
+.learnjs-image-container {
+  width: 100%;
+  margin: auto;
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  align-items: center;
+}
+.project-screenshot {
+  flex: 1;
+  align-self: center;
+  width: 900px;
+  box-shadow: 5px 10px 3px black;
+  margin-bottom: 50px;
+}
+
+.learnjs-description {
+  width: 50%;
+  margin: auto;
+}
+
+.learnjs-description ul {
+  list-style: none;
+  padding-left: 0;
+  font-family: "Open Sans", sans-serif;
+}
+.learnjs-description p,
+li,
+h4 {
+  font-size: 19px;
+  font-family: "Open Sans", sans-serif;
+}
+@media only screen and (max-width: 900px) {
   .learnjs-image-container {
-    width: 100%;
+    width: 74%;
     margin: auto;
     display: flex;
     justify-content: center;
     flex-direction: column;
     align-items: center;
-    
   }
   .project-screenshot {
     flex: 1;
     align-self: center;
-    width: 900px;
+    max-width: 100%;
     box-shadow: 5px 10px 3px black;
     margin-bottom: 50px;
   }
-  
-  .learnjs-description{
-    width: 50%;
+  .learnjs-header h1 {
+    font-size: 40px;
+  }
+  .learnjs-description p, ul
+  li,
+  h4 {
+    font-size: 15px;
+    font-family: "Open Sans", sans-serif;
+  }
+
+  .learnjs-description {
+    width: 65%;
     margin: auto;
   }
-  
-  .learnjs-description ul{
-    list-style: none;
-    padding-left: 0;
-    font-family: 'Open Sans', sans-serif;
-  }
-  .learnjs-description p, li, h4{
-    font-size: 19px;
-    font-family: 'Open Sans', sans-serif;
-  }
+}
