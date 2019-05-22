@@ -1,6 +1,6 @@
 import React, { Component } from 'react';
 import { Route } from 'react-router';
-import Home from './Home';
+import Home from './components/home/Home';
 import Squad from './components/squad/Squad';
 import Prefcards from './components/prefcards/Prefcards';
 import Learnjs from './components/learnjs/Learnjs';

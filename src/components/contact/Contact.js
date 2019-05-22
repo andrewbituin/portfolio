@@ -3,10 +3,10 @@ import Nav from "../Nav";
 import Footer from "../Footer";
 import phonebooth from "./phonebooth.jpg";
 import "./Contact.css";
-import github from "../../github-logo.png";
-import linkedin from "../../linkedin-logo.png";
-import instagram from "../../instagram-logo.png";
-import email from "../../mail.png";
+import github from "../../logos/github-logo.png"
+import linkedin from "../../logos/linkedin-logo.png";
+import instagram from "../../logos/instagram-logo.png";
+import email from "../../logos/mail.png";
 import NavButtons from "../NavButtons";
 import Initials from "../initials/Initials";
 

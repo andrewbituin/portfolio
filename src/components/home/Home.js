@@ -1,18 +1,18 @@
 import React from "react";
 import { Link } from "react-router-dom";
-import Nav from "./components/Nav";
-import Footer from './components/Footer';
+import Nav from "../Nav";
+import Footer from '../Footer';
 
 import "./Home.css";
 
-import squad from "./squadarmory-logo.png";
+import squad from "../squad/squadarmory-logo.png";
 
-import learnjs2 from "./learnjs2.png";
+import learnjs2 from "../learnjs/learnjs2.png";
 
-import petful from "./petful-logo.png";
+import petful from "../petful/petful-logo.png";
 
 
-import prefcards3 from "./prefcards3.png";
+import prefcards3 from "../prefcards/prefcards3.png";
 
 
 export default function Home() {

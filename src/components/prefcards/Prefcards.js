@@ -5,7 +5,6 @@ import "./Prefcards.css";
 
 import prefcardsExample from "./prefcardsExample2.png";
 import prefcardsList from "./prefcardsList2.png";
-import prefcards from "../.././prefcards3.png";
 import Initials from '../initials/Initials';
 
 export default function Prefcards() {

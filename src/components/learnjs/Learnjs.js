@@ -1,7 +1,6 @@
 import React from "react";
 import Nav from "../Nav";
 import Footer from "../Footer";
-import learnjs from "../../learnjs2.png";
 import learn from "./learnjs-learn.png";
 import learnjsDashboard from "./learnjs-dashboard.png";
 import Initials from '../initials/Initials';

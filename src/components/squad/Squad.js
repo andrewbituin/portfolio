@@ -4,7 +4,6 @@ import Footer from "../Footer";
 import squadDesktop from "./squadDesktop.png";
 import squadList from "./squadList.png";
 import "./Squad.css";
-import squad from "../.././squadarmory-logo.png";
 import Initials from '../initials/Initials';
 
 export default function Squad() {
