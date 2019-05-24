@@ -30,7 +30,7 @@ export default function Contact() {
         <ul className="contact-list">
           <li>
             <a href="https://www.github.com/andrewbituin">
-              <img src={github} className="contact-logo" />
+              <img src={github} alt="github logo" className="contact-logo" />
             </a>
             <a href="https://www.github.com/andrewbituin">
               <span className="contact-link">GitHub</span>
@@ -38,7 +38,7 @@ export default function Contact() {
           </li>
           <li>
             <a href="https://www.linkedin.com/in/andrew-bituin">
-              <img src={linkedin} className="contact-logo" />
+              <img src={linkedin} alt="linkedin logo" className="contact-logo" />
             </a>
             <a href="https://www.linkedin.com/in/andrew-bituin">
               <span className="contact-link">LinkedIn</span>
@@ -46,7 +46,7 @@ export default function Contact() {
           </li>
           <li>
             <a href="https://www.instagram.com/lil_bittyy_/">
-              <img src={instagram} className="contact-logo" />
+              <img src={instagram} alt="instagram logo" className="contact-logo" />
             </a>
             <a href="https://www.instagram.com/lil_bittyy_/">
               <span className="contact-link">Instagram</span>
@@ -54,7 +54,7 @@ export default function Contact() {
           </li>
           <li className="logo-container">
             <a href="mailto:fandrewbituin@gmail.com">
-              <img src={email} className="contact-logo" id="a" />
+              <img src={email} alt="email logo" className="contact-logo" id="a" />
             </a>
             <a href="mailto:fandrewbituin@gmail.com">
               <span className="contact-link">fandrewbituin@gmail.com</span>
