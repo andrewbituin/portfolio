@@ -39,13 +39,13 @@ export default function Learnjs() {
         </div>
       </section>
       <div className="learnjs-links-container">
-        <a href="https://learnjs-app.now.sh/">
+        <a href="https://learnjs-app.now.sh/" target="_blank" rel="noopener noreferrer">
           <div className="learnjs-link">LIVE APP</div>
         </a>
-        <a href="https://github.com/andrewbituin/learnjs-client">
+        <a href="https://github.com/andrewbituin/learnjs-client" target="_blank" rel="noopener noreferrer">
           <div className="learnjs-link">CLIENT REPO</div>
         </a>
-        <a href="https://github.com/andrewbituin/learnjs-server">
+        <a href="https://github.com/andrewbituin/learnjs-server" target="_blank" rel="noopener noreferrer">
           <div className="learnjs-link">SERVER REPO</div>
         </a>
       </div>

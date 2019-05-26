@@ -30,13 +30,13 @@ export default function Petful() {
         </div>
       </section>
       <div className="petful-links-container">
-        <a href="https://andrew-alex-petful.now.sh/">
+        <a href="https://andrew-alex-petful.now.sh/" target="_blank" rel="noopener noreferrer">
           <div className="petful-link">LIVE APP</div>
         </a>
-        <a href="https://github.com/andrewbituin/petful-client">
+        <a href="https://github.com/andrewbituin/petful-client" target="_blank" rel="noopener noreferrer">
           <div className="petful-link">CLIENT REPO</div>
         </a>
-        <a href="https://github.com/andrewbituin/petful-server">
+        <a href="https://github.com/andrewbituin/petful-server" target="_blank" rel="noopener noreferrer">
           <div className="petful-link">SERVER REPO</div>
         </a>
       </div>

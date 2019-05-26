@@ -39,13 +39,13 @@ export default function Squad() {
         </div>
       </section>
       <div className="squad-links-container">
-        <a href="https://squad-armory.now.sh/">
+        <a href="https://squad-armory.now.sh/" target="_blank" rel="noopener noreferrer">
           <div className="squad-link">LIVE APP</div>
         </a>
-        <a href="https://github.com/thinkful-ei-armadillo/The-Armory-Client">
+        <a href="https://github.com/thinkful-ei-armadillo/The-Armory-Client" target="_blank" rel="noopener noreferrer">
           <div className="squad-link">CLIENT REPO</div>
         </a>
-        <a href="https://github.com/thinkful-ei-armadillo/The-Armory-Server">
+        <a href="https://github.com/thinkful-ei-armadillo/The-Armory-Server" target="_blank" rel="noopener noreferrer">
           <div className="squad-link">SERVER REPO</div>
         </a>
       </div>

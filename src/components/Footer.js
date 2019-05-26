@@ -10,13 +10,13 @@ export default function Footer() {
     return (
       <footer>
         <div className="left-footer">
-          <a href="https://www.github.com/andrewbituin">
+          <a href="https://www.github.com/andrewbituin" target="_blank" rel="noopener noreferrer">
             <img src={github} alt="github logo" className="logo" />
           </a>
-          <a href="https://www.linkedin.com/in/andrew-bituin">
+          <a href="https://www.linkedin.com/in/andrew-bituin" target="_blank" rel="noopener noreferrer">
             <img src={linkedin} alt="linkedin logo" className="logo" />
           </a>
-          <a href="https://www.instagram.com/lil_bittyy_/">
+          <a href="https://www.instagram.com/lil_bittyy_/" target="_blank" rel="noopener noreferrer">
             <img src={instagram} alt="instagram logo" className="logo" />
           </a>
           <a href="mailto:fandrewbituin@gmail.com">

@@ -37,13 +37,13 @@ export default function Prefcards() {
         </div>
       </section>
       <div className="prefcards-links-container">
-        <a href="https://prefcards.fandrewbituin.now.sh/">
+        <a href="https://prefcards.fandrewbituin.now.sh/" target="_blank" rel="noopener noreferrer">
           <div className="prefcards-link">LIVE APP</div>
         </a>
-        <a href="https://github.com/andrewbituin/prefcards-client">
+        <a href="https://github.com/andrewbituin/prefcards-client" target="_blank" rel="noopener noreferrer">
           <div className="prefcards-link">CLIENT REPO</div>
         </a>
-        <a href="https://github.com/andrewbituin/prefcards-api">
+        <a href="https://github.com/andrewbituin/prefcards-api" target="_blank" rel="noopener noreferrer">
           <div className="prefcards-link">SERVER REPO</div>
         </a>
       </div>
