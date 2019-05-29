@@ -24,6 +24,7 @@ body {
   width: 45%;
   color: black;
   opacity: 0.95;
+  animation: fadeIn 1s;
 }
 
 .name-andrew{
@@ -70,6 +71,15 @@ body {
   color: rgba(156, 41, 233, 0.712);
 }
 
+@keyframes fadeIn {
+  from{
+    opacity: 0;
+  }
+  to {
+    opacity: 1;
+  }
+}
+
 .project-container {
   width: 66%;
   margin: auto;
@@ -79,6 +89,7 @@ body {
   justify-content: center;
   align-items: flex-start;
   flex-wrap: wrap;
+  animation: fadeIn 2s;
 }
 .project-holder {
   align-self: center;
