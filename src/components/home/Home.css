@@ -12,8 +12,6 @@ html {
 body {
   margin: 0px;
   /* background-color: #95B1C4; */
-  max-width: 1500px;
-  margin: auto;
 }
 
 .home-header-container {
@@ -83,7 +81,7 @@ body {
 }
 
 .project-container {
-  width: 66%;
+  width: 50%;
   margin: auto;
   margin-top: 150px;
   /* text-align: center; */
@@ -92,6 +90,7 @@ body {
   align-items: flex-start;
   flex-wrap: wrap;
   animation: fadeIn 2s;
+  
 }
 .project-holder {
   align-self: center;
