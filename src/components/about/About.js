@@ -3,7 +3,7 @@ import Nav from "../Nav";
 import Footer from "../Footer";
 import profile from "./profile.jpg";
 import "./About.css";
-import NavButtons from "../NavButtons";
+// import NavButtons from "../NavButtons";
 import Initials from "../initials/Initials";
 
 export default function About() {
@@ -28,8 +28,7 @@ export default function About() {
         <p>
           When I'm not obsessively going over code, I enjoy reading science
           fiction and fantasy books. I like to write. Some of my favorite TV
-          shows are Game of Thrones (barring this last season) and Parks and
-          Rec. Favorite movies at the moment include Blade Runner 2049 and Dumb
+          shows are The Mandalorian and Parks and Rec. Favorite movies at the moment include Blade Runner 2049 and Dumb
           and Dumber. Also, I like food a lot. I love cooking and trying
           delicious places to eat.
         </p>

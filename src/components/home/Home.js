@@ -35,16 +35,16 @@ export default function Home() {
             />
           </div>
         </Link>
-        <Link to="/learnjs">
+        {/* <Link to="/learnjs">
           <div className="learnjs">
             <img src={learnjs2} alt="project-pic" className="project-holder" />
           </div>
-        </Link>
-        <Link to="/petful">
+        </Link> */}
+        {/* <Link to="/petful">
           <div classname="petful">
             <img src={petful} alt="project-pic" className="project-holder" />
           </div>
-        </Link>
+        </Link> */}
       </>
     );
   }
