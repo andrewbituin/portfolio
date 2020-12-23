@@ -1,7 +1,7 @@
 import React from "react";
 import { Link } from "react-router-dom";
 import Nav from "../Nav";
-import Footer from '../Footer';
+import Footer from "../Footer";
 
 import "./Home.css";
 
@@ -11,9 +11,7 @@ import learnjs2 from "../learnjs/learnjs2.png";
 
 import petful from "../petful/petful-logo.png";
 
-
 import prefcards3 from "../prefcards/prefcards3.png";
-
 
 export default function Home() {
   // https://squad-armory.now.sh/
@@ -21,20 +19,18 @@ export default function Home() {
   function generateProjects() {
     return (
       <>
-        <div className="squadArmory">
-          <Link to="/squad-armory">
-            <img src={squad} alt="project-pic" className="project-holder" />
+        <div className="link-container">
+          <Link to="/the-armory">
+            <h2 className="squadArmory">THE ARMORY</h2>
+          </Link>
+          <Link to="/prefcards">
+            <h2 className="prefcards">PREFCARDS</h2>
+          </Link>
+          <Link to="/work">
+            <h2>WORK PROJECTS</h2>
           </Link>
         </div>
-        <Link to="/prefcards">
-          <div className="prefcards">
-            <img
-              src={prefcards3}
-              alt="project-pic"
-              className="project-holder"
-            />
-          </div>
-        </Link>
+
         {/* <Link to="/learnjs">
           <div className="learnjs">
             <img src={learnjs2} alt="project-pic" className="project-holder" />
@@ -52,9 +48,7 @@ export default function Home() {
   return (
     <>
       <Nav />
-      <section className="project-container">
-        {generateProjects()}
-      </section>
+      <section className="project-container">{generateProjects()}</section>
       <Footer />
     </>
   );

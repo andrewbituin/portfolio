@@ -3,6 +3,7 @@ import { Route } from 'react-router';
 import Home from './components/home/Home';
 import Squad from './components/squad/Squad';
 import Prefcards from './components/prefcards/Prefcards';
+import Work from './components/work/Work';
 import Learnjs from './components/learnjs/Learnjs';
 import Petful from './components/petful/Petful';
 import About from './components/about/About';
@@ -13,10 +14,10 @@ class App extends Component {
     return (
       <div>
         <Route exact path='/' component={Home}></Route>
-        <Route exact path='/squad-armory' component={Squad}></Route>
+        <Route exact path='/the-armory' component={Squad}></Route>
         <Route exact path='/prefcards' component={Prefcards}></Route>
-        <Route exact path='/learnjs' component={Learnjs}></Route>
-        <Route exact path='/petful' component={Petful}></Route>
+        <Route exact path='/work' component={Work}></Route>
+
         <Route exact path='/about' component={About}></Route>
         <Route exact path='/contact' component={Contact}></Route>
       </div>

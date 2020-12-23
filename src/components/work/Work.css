@@ -66,6 +66,17 @@ h4 {
 .project-pic-detail:hover {
   filter: brightness(100%) !important;
 }
+
+.work-image-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: row;
+}
+
+.casino1 {
+  width: 330px;
+}
 @media only screen and (max-width: 900px) {
   .prefcards-image-container {
     width: 74%;

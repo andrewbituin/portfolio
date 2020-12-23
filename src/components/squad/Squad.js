@@ -17,7 +17,7 @@ export default function Squad() {
         <Initials />
       </div>
       <header className="squad-header">
-        <h1>SQUAD ARMORY</h1>
+        <h1>THE ARMORY</h1>
         {/* <h3 className="squad-blurb">
           Find friends to play with in your favorite online multiplayer games!
         </h3> */}
@@ -42,7 +42,7 @@ export default function Squad() {
         <a href="https://squad-armory.now.sh/" target="_blank" rel="noopener noreferrer">
           <div className="squad-link">LIVE APP</div>
         </a>
-        <a href="https://github.com/thinkful-ei-armadillo/The-Armory-Client" target="_blank" rel="noopener noreferrer">
+        <a href="https://github.com/andrewbituin/armorychat" target="_blank" rel="noopener noreferrer">
           <div className="squad-link">CLIENT REPO</div>
         </a>
         <a href="https://github.com/thinkful-ei-armadillo/The-Armory-Server" target="_blank" rel="noopener noreferrer">

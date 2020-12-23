@@ -2,10 +2,10 @@ import React from "react";
 import Nav from "../Nav";
 import Footer from "../Footer";
 import "./Prefcards.css";
-
+import prefcards3 from "../prefcards/prefcards3.png";
 import prefcardsExample from "./prefcardsExample2.png";
 import prefcardsList from "./prefcardsList2.png";
-import Initials from '../initials/Initials';
+import Initials from "../initials/Initials";
 
 export default function Prefcards() {
   return (
@@ -21,7 +21,8 @@ export default function Prefcards() {
         {/* <h3 className="prefcards-blurb">An app for surgical teams</h3> */}
       </header>
       <section className="prefcards-image-container">
-        <div>
+        <img src={prefcards3} alt="project-pic" className="project-holder project-pic-detail" />
+        {/* <div>
           <img
             src={prefcardsList}
             alt="A screenshot of Prefcards Armory"
@@ -34,16 +35,28 @@ export default function Prefcards() {
             alt="A screenshot of Prefcards Armory"
             className="project-screenshot"
           />
-        </div>
+        </div> */}
       </section>
       <div className="prefcards-links-container">
-        <a href="https://prefcards.now.sh/" target="_blank" rel="noopener noreferrer">
+        <a
+          href="https://prefcards.now.sh/"
+          target="_blank"
+          rel="noopener noreferrer"
+        >
           <div className="prefcards-link">LIVE APP</div>
         </a>
-        <a href="https://github.com/andrewbituin/prefcards-client" target="_blank" rel="noopener noreferrer">
+        <a
+          href="https://github.com/andrewbituin/prefcards-client"
+          target="_blank"
+          rel="noopener noreferrer"
+        >
           <div className="prefcards-link">CLIENT REPO</div>
         </a>
-        <a href="https://github.com/andrewbituin/prefcards-api" target="_blank" rel="noopener noreferrer">
+        <a
+          href="https://github.com/andrewbituin/prefcards-api"
+          target="_blank"
+          rel="noopener noreferrer"
+        >
           <div className="prefcards-link">SERVER REPO</div>
         </a>
       </div>
