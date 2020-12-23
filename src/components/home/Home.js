@@ -20,14 +20,14 @@ export default function Home() {
     return (
       <>
         <div className="link-container">
+          <Link to="/work">
+            <h2>WORK PROJECTS</h2>
+          </Link>
           <Link to="/the-armory">
             <h2 className="squadArmory">THE ARMORY</h2>
           </Link>
           <Link to="/prefcards">
             <h2 className="prefcards">PREFCARDS</h2>
-          </Link>
-          <Link to="/work">
-            <h2>WORK PROJECTS</h2>
           </Link>
         </div>
 
