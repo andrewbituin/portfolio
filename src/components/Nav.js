@@ -16,7 +16,7 @@ export default function Nav() {
         <h1>
          Hi there! <br></br> I'm <span className="name-andrew">Andrew</span>.
         </h1>
-        <p className="header-blurb">I'm a full stack web developer who's passionate about learning and programming.</p>
+        <p className="header-blurb">I'm a software engineer who's passionate about learning and programming.</p>
       </header>
     </section>
     </>

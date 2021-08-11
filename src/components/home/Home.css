@@ -81,7 +81,7 @@ body {
 }
 
 .project-container {
-  width: 50%;
+  max-width: 1000px;
   margin: auto;
   margin-top: 150px;
   /* text-align: center; */
